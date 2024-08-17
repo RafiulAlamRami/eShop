@@ -63,6 +63,13 @@ cd backend
 npm run start
 ```
 
+## Visit the application in your browser:
+
+```bash
+http://localhost:yourPort
+
+```
+
 ----------
 
 2. Install Dependencies

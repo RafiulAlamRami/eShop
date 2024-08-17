@@ -22,11 +22,41 @@ git clone https://github.com/yourusername/eshop.git
 cd eshop
 ```
 
-Initialize a Node.js project:
+## Configuration :
+# Backend:
+
+- Create a .env file in the backend/ directory:
+
+
 ```bash
-npm init -y
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+FIREBASE_API_KEY=your_firebase_api_key
+FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+
 
 ```
+# Frontend:
+- Configure Firebase in the frontend/src/firebaseConfig.js file::
+
+
+```bash
+const firebaseConfig = {
+  apiKey: "your_firebase_api_key",
+  authDomain: "your_firebase_auth_domain",
+  projectId: "your_project_id",
+  storageBucket: "your_storage_bucket",
+  messagingSenderId: "your_messaging_sender_id",
+  appId: "your_app_id",
+};
+
+export default firebaseConfig;
+
+
+
+```
+
+----------
 
 2. Install Dependencies
 Install the required dependencies:
@@ -52,7 +82,7 @@ npm install
 Start the development server using nodemon:
 
 ```bash
-npm nodemon server.js
+npm run dev
 
 
 ```

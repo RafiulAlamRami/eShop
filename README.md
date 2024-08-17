@@ -13,13 +13,13 @@ eShop is a modern e-commerce platform with advanced search functionality, provid
 
 ## Project Setup
 
-### 1. Project Initialization
+### Installation
 
-First, create a new directory for the project and navigate into it:
+Clone the repository:
 
 ```bash
-mkdir eShop
-cd eShop
+git clone https://github.com/yourusername/eshop.git
+cd eshop
 ```
 
 Initialize a Node.js project:

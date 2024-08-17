@@ -52,8 +52,15 @@ const firebaseConfig = {
 
 export default firebaseConfig;
 
+```
 
+## Running the Application
 
+## Start the backend server:
+
+```bash
+cd backend
+npm run start
 ```
 
 ----------

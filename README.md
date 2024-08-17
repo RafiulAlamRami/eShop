@@ -72,32 +72,17 @@ http://localhost:yourPort
 ```
 
 ----------
+## Start the froentend:
 
-2. Install Dependencies
-Install the required dependencies:
 
-```bash
-npm install express mongoose dotenv body-parser cors
-npm install --save-dev nodemon
 
-```
-
-3. Clone the Repository
-Clone the repository and install dependencies:
+Clone the repository and install dependencies and run project:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/RafiulAlamRami/eShop.git
 cd eShop
-npm install
-
-
-```
-
-5. Run the Server
-Start the development server using nodemon:
-
-```bash
 npm run dev
 
 
 ```
+

@@ -1,6 +1,7 @@
 # [eShop](https://eshop-3786e.web.app/)
 ## Live URL: https://eshop-3786e.web.app/
 
+## Description
 eShop is a modern e-commerce platform with advanced search functionality, providing users with a seamless shopping experience. The frontend is built with React, Tailwind CSS, and Daisy UI for a sleek and responsive design. Firebase Authentication is used for secure user management. The backend is powered by Node.js, Express.js, and MongoDB.
 
 ## Features

@@ -5,8 +5,8 @@ const Footer = () => {
     <div>
       <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">All Products</a>
-          <a className="link link-hover">Contact Us</a>
+          <a className="link link-hover text-[1.5rem]">All Products</a>
+          <a className="link link-hover text-[1.5rem]">Contact Us</a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </nav>
         <aside>
-          <p>
+          <p className="text-[1.3rem]">
             Copyright © {new Date().getFullYear()} - All right reserved by eShop
           </p>
         </aside>

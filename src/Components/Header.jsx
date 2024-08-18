@@ -7,9 +7,9 @@ const Header = () => {
     const { user, logOut } = useContext(AuthContext)
 
   const links = <>
-      <li><NavLink to={'/'}>Home</NavLink></li>
-      <li><NavLink to={'/allProducts'}>All Products</NavLink></li>
-      <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
+      <li className="text-[1.5rem] font-lex"><NavLink to={'/'}>Home</NavLink></li>
+      <li className="text-[1.5rem] font-extrabold font-lex mx-[1em] text-red-600 underline"><NavLink to={'/allProducts'}>All Products</NavLink></li>
+      <li className="text-[1.5rem] font-lex"><NavLink to={'/contact'}>Contact Us</NavLink></li>
       
     </>
   
@@ -56,7 +56,7 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">eShop</a>
+          <a className="btn btn-ghost text-[3rem]">eShop</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
